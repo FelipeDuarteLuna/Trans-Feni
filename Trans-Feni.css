@@ -1,0 +1,122 @@
+body{
+    width: 90%; 
+    margin: 0 auto;
+          
+}
+
+header{
+    height: 25%;
+    font-family: 'Dosis',sans-serif;  /* Tag para defenir fonte das letras*/
+    text-align: center;/* Tag para centralizar o texto*/
+    color: #6e3c14;
+    border-top:  outset rgb(249, 176, 0);
+    
+}
+
+/*
+img {
+    position: absolute;
+    left:10%;
+    top:2%;
+    
+}
+
+h1{
+    display: inline-block;
+    padding-top: 2em;
+}*/
+
+
+
+footer{
+    margin-top: 5em;
+    padding: 2em;
+    background-color: rgb(255, 216, 0);
+    position: relative;
+    text-align: center;
+    font-size: 0.8em;
+	  font-family: 'Dosis',sans-serif;  /* Tag para defenir fonte das letras*/
+}
+
+.contato{
+	font-size: 2em;
+	padding-bottom: 0.5em;
+}
+
+.container{
+	margin-top: 3em;
+}
+
+.rodapeprincipal .container{
+	display: flex;
+	flex-direction: column;/*TAG QUE DEFINI determina em qual direção que os flex items serão leiautados.*/
+	height: 150px;
+	flex-wrap: wrap;/*TAG que determina a direção em que novas linhas são empilhadas (stacked).*/
+	
+	
+}
+
+
+
+/*
+.contato{
+    font-size: 2em;
+    clear: both;
+    font-family: 'Dosis',sans-serif;  /* Tag para defenir fonte das letras
+    padding-top:  1em;
+    padding-bottom: 0.5em;   
+}
+
+
+.phone{
+    position: absolute;
+    top: 7em;
+    left: 9.5em;
+    width: 6em;
+    height: 5em;   
+}
+
+.info-phone{
+    position: relative;
+    top: 7em;
+    left: 8.4em;
+    padding: 1em;
+    width: 6.5em;    
+}
+
+.mail{
+    position: absolute;
+    top:7em;
+    left:30.4em;        
+}
+
+
+.info-mail{    
+    position: absolute;
+    top: 14em;
+    left: 27.5em;
+}
+
+.map{
+    position: absolute;
+    top: 7em;
+    left: 50em;  
+}
+
+.info-map{  
+    position: absolute;
+    top: 14em;
+    left: 47em;
+}
+
+.open{
+    position: absolute;
+    top: 7em;
+    left: 70em;   
+}
+
+.info-open{
+     position: absolute;
+    top: 13.6em;
+    left: 68em; 
+}*/
